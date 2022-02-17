@@ -1,0 +1,16 @@
+Regla 1: Dada una cuerda que toma **`x`** minutos para quemarse y otra **`y`** 
+         minutos, podemos cronometrar **`x + y`** minutos.
+
+¿Qué más podemos hacer con la cuerda?
+
+- ¿Podríamos quemarla desde la mitad?
+    R: No, porque perderia el factor longitud que permite medir la cuerda
+- ¿Podríamos quemarla más de una vez?
+    R: Si, pero ya no se podria determinar cuanto tardaria en quemarse
+
+1. Tomar un cuerda y prender ambos extremos
+2. Tomamos la segunda cuerda y prendemos uno de sus extremos.
+3. Vamos a observar la primera cuerda, hasta que ambas llamas se encuentren
+4. Cuando se encuentran ambas llamas habrán pasado 30 minutos
+5. En ese momento vamos a tomar la segunda cuerda y vamos a prender su extremo
+6. Cuando las dos llamas de la segunda cuerda se encuentren, esto quiere decir que han pasado 15 minutos.
